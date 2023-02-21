@@ -40,5 +40,26 @@ img{
     width:170px;
     height:200px;
     position:absolute;
+    margin-left:0px;
     transform: translat(300px,-300px); 
+}
+body{
+    animation: change 2s infinite;
+}
+@keyframes change {
+    0%{background-color: rgba(108, 71, 15, 0.611);}
+    10%{background-color: rgba(38, 129, 64, 0.611);}
+    20%{background-color: rgba(17, 89, 191, 0.611);}
+    30%{background-color: rgba(244, 109, 31, 0.611);}
+    40%{background-color: rgba(208, 19, 145, 0.611);}
+    50%{background-color: rgba(251, 15, 15, 0.611);}
+    60%{background-color: rgba(101, 16, 213, 0.611);}
+    70%{background-color: rgba(234, 186, 113, 0.611);}
+    80%{background-color: rgba(218, 126, 193, 0.611);}
+    9%{background-color: rgba(89, 175, 67, 0.611);}
+    100%{background-color: rgba(134, 131, 221, 0.611);}
+}
+@keyframes skrr {
+    0%
+    
 }
