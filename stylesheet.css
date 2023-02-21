@@ -40,12 +40,16 @@ img{
     width:170px;
     height:200px;
     position:absolute;
+    border-radius: 35%;
     margin-left:0px;
-    transform: translat(300px,-300px); 
-    animation: skrr 1s linear infinite;
+    animation: skrr 1s 2;
+    animation-direction: alternate ;
+    
+ 
 }
+
 body{
-    animation: change 20s infinite;
+    animation: change 3s infinite;
 }
 @keyframes change {
     0%{background-color: rgba(108, 71, 15, 0.611);}
@@ -61,7 +65,7 @@ body{
     100%{background-color: rgba(134, 131, 221, 0.611);}
 }
 @keyframes skrr {
-    0%{transform:translate(0,0) rotate(0deg)}
-    50%{transform:translate(0,0) rotate(720deg)}
+    0%{transform:translate(0,0) rotate(0deg);scale:0.2 ;}
+    100%{transform:translate(0,0) rotate(2120deg);scale:2 ;}
     
 }
