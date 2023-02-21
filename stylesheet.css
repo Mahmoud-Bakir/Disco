@@ -42,9 +42,10 @@ img{
     position:absolute;
     margin-left:0px;
     transform: translat(300px,-300px); 
+    animation: skrr 1s linear infinite;
 }
 body{
-    animation: change 2s infinite;
+    animation: change 20s infinite;
 }
 @keyframes change {
     0%{background-color: rgba(108, 71, 15, 0.611);}
@@ -60,6 +61,7 @@ body{
     100%{background-color: rgba(134, 131, 221, 0.611);}
 }
 @keyframes skrr {
-    0%
+    0%{transform:translate(0,0) rotate(0deg)}
+    50%{transform:translate(0,0) rotate(720deg)}
     
 }
