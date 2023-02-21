@@ -1,0 +1,44 @@
+#imp{
+    color:rgb(16, 100, 227);
+    font-family: 'Times New Roman', Times, serif;
+}
+h3{
+    color: rgb(58, 121, 223);
+    margin-top:-20px;
+}
+h4{
+    color:gray;
+    margin-top: -20px;;
+    margin-right:600px ;
+}
+#sp1{
+    margin-left: 75px;
+    margin-right: 200px;
+}
+#sp2{
+    margin-left: 75px;
+    margin-right: 200px;
+    height: 200px;
+}
+#info{
+    font-family:monospace;
+    font-size: larger;
+    margin-right:600px ;
+
+}
+li{
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:gray
+}
+ul{
+    margin-right: 600px;
+
+}
+img{
+    width:170px;
+    height:200px;
+    position:absolute;
+    transform: translat(300px,-300px); 
+}
