@@ -42,14 +42,14 @@ img{
     position:absolute;
     border-radius: 35%;
     margin-left:0px;
-    animation: skrr 1s 2;
+    animation: skrr 5s 2;
     animation-direction: alternate ;
     
  
 }
 
 body{
-    animation: change 3s infinite;
+    animation: change 5s infinite;
 }
 @keyframes change {
     0%{background-color: rgba(108, 71, 15, 0.611);}
@@ -66,6 +66,6 @@ body{
 }
 @keyframes skrr {
     0%{transform:translate(0,0) rotate(0deg);scale:0.2 ;}
-    100%{transform:translate(0,0) rotate(2120deg);scale:2 ;}
+    100%{transform:translate(0,0) rotate(5120deg);scale:2 ;}
     
 }
